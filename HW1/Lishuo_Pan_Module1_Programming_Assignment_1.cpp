@@ -9,15 +9,15 @@
 //    Illustrate the use of << which is used to output stuff.
 
 #include <iostream>         // Allows use of << and >> operators.
+#include <string>
 using namespace std;        // Eliminates need for std as in std::cout
 
 int main( void )
 {
-    const int namelen = 30;
-    char name[namelen];
-    cout << "Please type your name:" << endl;
-    cin.getline(name, namelen);
-    cout  << "Your name is:"<< endl << name << endl;
+    string name;
+    cout << "Please type your first name:" << endl;
+    getline(cin, name);
+    cout  << "Your first name is:"<< endl << name << endl;
 
     system("pause");   // required by some compilers to keep output window open.
     return 0;
