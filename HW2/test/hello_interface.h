@@ -1,13 +1,12 @@
 #ifndef HELLO_INTERFACE_H
+
 #define HELLO_INTERFACE_H
 
 #include <iostream>
 #include <string>
-using std::cout;using std::cin;using std::string;
-// function declaration
-void input_name(void);          // declare input_name function
-void print_name(void);    // declare input_name function
+using namespace std;
 
-// variable declaration
-string name;
+string input_name();
+void print_name( string name );
+
 #endif

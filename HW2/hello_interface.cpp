@@ -5,11 +5,11 @@
 // REQUIRED: hello_interface.h hello_driver.cpp
 // PURPOSE:
 //     User interface. contain the main() function
-#include "hello_interface.h"
-#include <iostream>         // allow use of cin cout
-int main()                  //the main function
+#include "hello_interface.h"                // include the header file
+int main(void)
 {
-    input_name();           // invoke the input_name
-    print_name();           // invoke the print_name
+    string user_name  =  input_name( );     // invoke the input_name() and save 
+                                            // the return to a string named user_name
+    print_name( user_name );                // invok the user_name()
     return 0;
 }

@@ -8,17 +8,16 @@
 //      output the infomation user input
 
 #include "hello_interface.h"
-#include <iostream>         // allow use of cin cout
-#include <string>           // allow use of string
-using namespace std;        //using directive
-string name;                //declaration for name
-void input_name(void)
+string input_name(void)
 {
-    cout << "Please enter your first name:" << '\n';
-    cin >> name;
+    string userName;                                                // declare string userName
+    cout  << "Please type in your first name and hit \"enter\":  ";
+    getline(cin, userName);                                         // get user input
+    return userName;
 }
-void print_name(void)
-{
-    cout << "this is your first name: \n" << name << '\n';
 
+
+void print_name( string name )
+{
+    cout << endl << "Hello your first name is: " << name << endl << endl;
 }

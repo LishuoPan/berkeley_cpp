@@ -1,13 +1,14 @@
 #include "hello_interface.h"
-void input_name()
+string input_name(void)
 {
-    using std::cout; using std::cin;
-    cout << "Please enter your first name:" << '\n';
-    cin >> name;
+    string userName;
+    cout  << "Please type in your first name and hit \"enter\":  ";
+    getline(cin, userName);
+    return userName;
 }
-void print_name()
-{
-    using std::cout; using std::cin;
-    cout << name << '\n';
 
+
+void print_name( string name )
+{
+    cout << endl << "Hello your first name is: " << name << endl << endl;
 }

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/panlishuo/Dropbox/berkeley C++/Assignment/HW3/EW_Driver.cpp
+iostream
+-
+math.h
+-
+EnglishWeight.h
+/Users/panlishuo/Dropbox/berkeley C++/Assignment/HW3/EnglishWeight.h
+
+/Users/panlishuo/Dropbox/berkeley C++/Assignment/HW3/EnglishWeight.cpp
+iostream
+-
+math.h
+-
+EnglishWeight.h
+/Users/panlishuo/Dropbox/berkeley C++/Assignment/HW3/EnglishWeight.h
+
+/Users/panlishuo/Dropbox/berkeley C++/Assignment/HW3/EnglishWeight.h
+
+/Users/panlishuo/Dropbox/berkeley C++/Assignment/HW3/test.cpp
+iostream
+-
+math.h
+-
+typeinfo
+-
+

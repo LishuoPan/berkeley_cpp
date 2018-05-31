@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW6/inheritance.h
+iostream
+-
+string
+-
+
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW6/inheritance_driver.cpp
+inheritance.h
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW6/inheritance.h
+
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW6/inheritance_implement.cpp
+inheritance.h
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW6/inheritance.h
+

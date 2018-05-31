@@ -10,8 +10,11 @@
 #ifndef HELLO_INTERFACE_H
 #define HELLO_INTERFACE_H
 
-// function declaration
-void input_name(void);          // declare input_name function
-void print_name(void);    // declare input_name function
+#include <iostream>
+#include <string>
+using namespace std;                // import the std
+
+string input_name();                // the function prototype for input_name
+void print_name( string name );     // the function prototype for print_name
 
 #endif

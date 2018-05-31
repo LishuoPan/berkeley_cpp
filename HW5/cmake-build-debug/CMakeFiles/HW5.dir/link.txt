@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/HW5.dir/tdc_d.cpp.o CMakeFiles/HW5.dir/driver.cpp.o  -o HW5 
