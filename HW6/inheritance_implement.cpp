@@ -1,5 +1,10 @@
 //
-// Created by Lishuo Pan on 2018/5/30.
+// FILENAME: inheritance_implement.cpp
+// PROGRAMMER: Lishuo Pan
+// DATE: 2018/5/30
+// COMPILER: C++11
+// REQUIRED: inheritance_driver.cpp, inheritance.h
+// PURPOSE: contain the class implement
 //
 #include "inheritance.h"
 

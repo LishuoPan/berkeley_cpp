@@ -1,5 +1,10 @@
 //
-// Created by Lishuo Pan on 2018/5/30.
+// FILENAME: inheritance_driver.cpp
+// PROGRAMMER: Lishuo Pan
+// DATE: 2018/5/30
+// COMPILER: C++11
+// REQUIRED: inheritance_implement.cpp, inheritance.h
+// PURPOSE: contain the driver file
 //
 
 #include "inheritance.h"

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW4/Dblstk1.h
+stdlib.h
+-
+iostream
+-
+
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW4/Stack_driver.cpp
+Dblstk1.h
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW4/Dblstk1.h
+
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW4/Stk.cpp
+Dblstk1.h
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW4/Dblstk1.h
+

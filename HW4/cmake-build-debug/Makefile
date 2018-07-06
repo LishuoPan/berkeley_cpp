@@ -123,6 +123,60 @@ HW4/fast:
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/build
 .PHONY : HW4/fast
 
+Stack_driver.o: Stack_driver.cpp.o
+
+.PHONY : Stack_driver.o
+
+# target to build an object file
+Stack_driver.cpp.o:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/Stack_driver.cpp.o
+.PHONY : Stack_driver.cpp.o
+
+Stack_driver.i: Stack_driver.cpp.i
+
+.PHONY : Stack_driver.i
+
+# target to preprocess a source file
+Stack_driver.cpp.i:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/Stack_driver.cpp.i
+.PHONY : Stack_driver.cpp.i
+
+Stack_driver.s: Stack_driver.cpp.s
+
+.PHONY : Stack_driver.s
+
+# target to generate assembly for a file
+Stack_driver.cpp.s:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/Stack_driver.cpp.s
+.PHONY : Stack_driver.cpp.s
+
+Stk.o: Stk.cpp.o
+
+.PHONY : Stk.o
+
+# target to build an object file
+Stk.cpp.o:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/Stk.cpp.o
+.PHONY : Stk.cpp.o
+
+Stk.i: Stk.cpp.i
+
+.PHONY : Stk.i
+
+# target to preprocess a source file
+Stk.cpp.i:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/Stk.cpp.i
+.PHONY : Stk.cpp.i
+
+Stk.s: Stk.cpp.s
+
+.PHONY : Stk.s
+
+# target to generate assembly for a file
+Stk.cpp.s:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/Stk.cpp.s
+.PHONY : Stk.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... HW4"
+	@echo "... Stack_driver.o"
+	@echo "... Stack_driver.i"
+	@echo "... Stack_driver.s"
+	@echo "... Stk.o"
+	@echo "... Stk.i"
+	@echo "... Stk.s"
 .PHONY : help
 
 

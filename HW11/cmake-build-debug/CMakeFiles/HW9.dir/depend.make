@@ -4,11 +4,11 @@
 CMakeFiles/HW9.dir/Linklist.cpp.o: ../Linklist.cpp
 CMakeFiles/HW9.dir/Linklist.cpp.o: ../linklist.h
 
-CMakeFiles/HW9.dir/Llmain.cpp.o: ../Llmain.cpp
-CMakeFiles/HW9.dir/Llmain.cpp.o: ../linklist.h
-CMakeFiles/HW9.dir/Llmain.cpp.o: ../person.h
+CMakeFiles/HW9.dir/meeting.cpp.o: ../linklist.h
+CMakeFiles/HW9.dir/meeting.cpp.o: ../meeting.cpp
+CMakeFiles/HW9.dir/meeting.cpp.o: ../meeting.h
 
-CMakeFiles/HW9.dir/Person.cpp.o: ../Person.cpp
-CMakeFiles/HW9.dir/Person.cpp.o: ../linklist.h
-CMakeFiles/HW9.dir/Person.cpp.o: ../person.h
+CMakeFiles/HW9.dir/test.cpp.o: ../linklist.h
+CMakeFiles/HW9.dir/test.cpp.o: ../meeting.h
+CMakeFiles/HW9.dir/test.cpp.o: ../test.cpp
 

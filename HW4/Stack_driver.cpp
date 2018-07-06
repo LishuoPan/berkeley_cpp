@@ -1,7 +1,7 @@
 //
 // FILENAME: Stack_driver.cpp
 // PROGRAMMER: Lishuo Pan
-// DATE: 2018/5/22
+// DATE: 2018/6/3
 // COMPILER: C++11
 // REQUIRED: Dblstk.h, tdc_d2.cpp
 // PURPOSE: driver file
@@ -26,10 +26,30 @@ int main(){
                 double item;
                 cout << "which double number you want to push in:" << endl;
                 cin >> item;
-                stack1.push(item);
+                try {
+                    stack1.push(item);
+                    if(stack1.size()>stack1.capacity()){
+                        throw 1;
+                    }
+                }
+                catch (int x){
+                    cout<<"the stack1 is overflow, the Error Number is: " << x<<endl;
+                    exit(1);
+                }
+
                 break;
             case 3:
-                stack1.pop();
+                try {
+                    stack1.pop();
+                    if(stack1.size()>10){
+                        throw 2;
+                    }
+                }
+                catch (int x){
+                    cout<<"the stack1 is underflow, the Error Number is: " << x<<endl;
+                    exit(2);
+                }
+
                 break;
             case 4:
                 cout<<"the total capacity is:"<<endl;

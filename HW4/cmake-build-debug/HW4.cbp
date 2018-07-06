@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW4/Stack_driver.cpp">
+			<Option target="HW4"/>
+		</Unit>
+		<Unit filename="/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW4/Stk.cpp">
+			<Option target="HW4"/>
+		</Unit>
 		<Unit filename="/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

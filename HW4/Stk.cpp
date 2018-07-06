@@ -1,7 +1,7 @@
 //
 // FILENAME: Stk.cpp
 // PROGRAMMER: Lishuo Pan
-// DATE: 2018/5/22
+// DATE: 2018/6/3
 // COMPILER: C++11
 // REQUIRED: Dblstk.h, tdc_d2.cpp
 // PURPOSE: contain the class implement

@@ -14,27 +14,27 @@ string.h
 linklist.h
 /Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/linklist.h
 
-/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/Llmain.cpp
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/linklist.h
+
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/meeting.cpp
+meeting.h
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/meeting.h
+
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/meeting.h
+iostream
+-
+string
+-
+linklist.h
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/linklist.h
+
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/test.cpp
 iostream
 -
 string.h
 -
 linklist.h
 /Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/linklist.h
-person.h
-/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/person.h
-
-/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/Person.cpp
-person.h
-/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/person.h
-
-/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/linklist.h
-
-/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/person.h
-iostream
--
-string.h
--
-linklist.h
-/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/linklist.h
+meeting.h
+/Users/panlishuo/GoogleDrive/berkeley C++/Assignment/HW11/meeting.h
 

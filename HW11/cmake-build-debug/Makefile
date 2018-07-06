@@ -150,59 +150,59 @@ Linklist.cpp.s:
 	$(MAKE) -f CMakeFiles/HW9.dir/build.make CMakeFiles/HW9.dir/Linklist.cpp.s
 .PHONY : Linklist.cpp.s
 
-Llmain.o: Llmain.cpp.o
+meeting.o: meeting.cpp.o
 
-.PHONY : Llmain.o
-
-# target to build an object file
-Llmain.cpp.o:
-	$(MAKE) -f CMakeFiles/HW9.dir/build.make CMakeFiles/HW9.dir/Llmain.cpp.o
-.PHONY : Llmain.cpp.o
-
-Llmain.i: Llmain.cpp.i
-
-.PHONY : Llmain.i
-
-# target to preprocess a source file
-Llmain.cpp.i:
-	$(MAKE) -f CMakeFiles/HW9.dir/build.make CMakeFiles/HW9.dir/Llmain.cpp.i
-.PHONY : Llmain.cpp.i
-
-Llmain.s: Llmain.cpp.s
-
-.PHONY : Llmain.s
-
-# target to generate assembly for a file
-Llmain.cpp.s:
-	$(MAKE) -f CMakeFiles/HW9.dir/build.make CMakeFiles/HW9.dir/Llmain.cpp.s
-.PHONY : Llmain.cpp.s
-
-Person.o: Person.cpp.o
-
-.PHONY : Person.o
+.PHONY : meeting.o
 
 # target to build an object file
-Person.cpp.o:
-	$(MAKE) -f CMakeFiles/HW9.dir/build.make CMakeFiles/HW9.dir/Person.cpp.o
-.PHONY : Person.cpp.o
+meeting.cpp.o:
+	$(MAKE) -f CMakeFiles/HW9.dir/build.make CMakeFiles/HW9.dir/meeting.cpp.o
+.PHONY : meeting.cpp.o
 
-Person.i: Person.cpp.i
+meeting.i: meeting.cpp.i
 
-.PHONY : Person.i
+.PHONY : meeting.i
 
 # target to preprocess a source file
-Person.cpp.i:
-	$(MAKE) -f CMakeFiles/HW9.dir/build.make CMakeFiles/HW9.dir/Person.cpp.i
-.PHONY : Person.cpp.i
+meeting.cpp.i:
+	$(MAKE) -f CMakeFiles/HW9.dir/build.make CMakeFiles/HW9.dir/meeting.cpp.i
+.PHONY : meeting.cpp.i
 
-Person.s: Person.cpp.s
+meeting.s: meeting.cpp.s
 
-.PHONY : Person.s
+.PHONY : meeting.s
 
 # target to generate assembly for a file
-Person.cpp.s:
-	$(MAKE) -f CMakeFiles/HW9.dir/build.make CMakeFiles/HW9.dir/Person.cpp.s
-.PHONY : Person.cpp.s
+meeting.cpp.s:
+	$(MAKE) -f CMakeFiles/HW9.dir/build.make CMakeFiles/HW9.dir/meeting.cpp.s
+.PHONY : meeting.cpp.s
+
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/HW9.dir/build.make CMakeFiles/HW9.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/HW9.dir/build.make CMakeFiles/HW9.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/HW9.dir/build.make CMakeFiles/HW9.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -216,12 +216,12 @@ help:
 	@echo "... Linklist.o"
 	@echo "... Linklist.i"
 	@echo "... Linklist.s"
-	@echo "... Llmain.o"
-	@echo "... Llmain.i"
-	@echo "... Llmain.s"
-	@echo "... Person.o"
-	@echo "... Person.i"
-	@echo "... Person.s"
+	@echo "... meeting.o"
+	@echo "... meeting.i"
+	@echo "... meeting.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

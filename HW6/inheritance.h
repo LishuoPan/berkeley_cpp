@@ -1,5 +1,10 @@
 //
-// Created by Lishuo Pan on 2018/5/30.
+// FILENAME:  inheritance.h
+// PROGRAMMER: Lishuo Pan
+// DATE: 2018/5/30
+// COMPILER: C++11
+// REQUIRED: inheritance_driver.cpp,inheritance_implement.cpp
+// PURPOSE: contain the head file
 //
 
 #ifndef HW6_INHERITANCE_H
